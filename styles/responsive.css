@@ -24,18 +24,19 @@
 
     .nav-title {
         color: #131318;
-        font-size: 1.25rem;
+        font-size: 1rem;
         font-weight: 800;
     }
 
     .search-container,
     .popular-tour-container,
     .maldive-indo,.sri-kashmir, .bd,
-    .card-container{
+    .card-container,
+    .newsletter-container{
         flex-direction: column;
         padding: 10px;
     }
-    .popular-tour-img img{
+    .popular-tour-img img , .newsletter-img img{
         width: 100%;
     }
     .destination-img-container img {
@@ -43,5 +44,20 @@
     }
     .card-price, .card-location, .card-hotel{
         width: 80%;
+    }
+    .discount{
+        position: relative;
+        max-width: 200px;
+        bottom: 116px;
+        left: 100px;
+        padding: 15px;
+    }
+    .discount-title {
+        font-size: 20px;
+        font-weight: 800;
+        margin: 0;
+    }
+    .discount-loc{
+        font-size: 16px;
     }
 }

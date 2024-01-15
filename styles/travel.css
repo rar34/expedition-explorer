@@ -34,6 +34,10 @@
 body {
     font-family: 'Mulish', sans-serif;
     /* padding: 50px 135px; */
+
+}
+
+header, main{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -111,7 +115,7 @@ label {
     justify-content: center;
 }
 
-input[type="text"] {
+.search-container input[type="text"] {
     padding: 16px;
     border-radius: 8px;
     border: 0;
@@ -203,6 +207,7 @@ input[type="text"] {
     padding: 32px;
     width: 50%;
 }
+
 .card-price {
     text-align: left;
     border-radius: 16px;
@@ -211,8 +216,77 @@ input[type="text"] {
     padding: 32px;
     width: 50%;
 }
-.card-price-container{
+
+.card-price-container {
     display: flex;
     justify-content: center;
     margin-top: 24px;
+}
+
+
+/* Newslette */
+
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter input[type="text"] {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px 0 16px 16px;
+    border: 0;
+    display: block;
+    margin-bottom: 16px;
+    width: 96%;
+}
+
+.newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    margin-bottom: 156px;
+}
+
+.btn-subscribe {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 16px;
+
+}
+
+/* discount */
+
+.discount{
+    background-color: #FF5400;
+    padding: 40px;
+    text-align: center;
+    border-radius: 16px;
+    max-width: 324px;
+    position: relative;
+    transform: rotate(-20deg);
+    bottom: 216px;
+    left: 258px;
+}
+.discount-loc {
+    color: #FFF;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.discount-title {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+}
+
+/* footer */
+
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    align-items: center;
+    justify-content: center;
 }
