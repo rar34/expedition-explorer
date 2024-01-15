@@ -10,15 +10,16 @@
 
 /* common shared style */
 
-.section-title{
+.section-title {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
 }
-.section-content{
+
+.section-content {
     color: rgba(19, 19, 24, 0.70);
     margin: 24px 0;
-    }
+}
 
 .btn-primary {
     border-radius: 8px;
@@ -30,15 +31,17 @@
     cursor: pointer;
 }
 
-body{
+body {
     font-family: 'Mulish', sans-serif;
-    padding: 50px 135px;
+    /* padding: 50px 135px; */
     max-width: 1440px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin-bottom: 100px;
 }
+
 /* header related style */
 
 
@@ -125,7 +128,7 @@ input[type="text"] {
 
 /* popular tour container */
 
-.popular-tour-container{
+.popular-tour-container {
     margin-top: 100px;
     display: flex;
     gap: 50px;
@@ -133,37 +136,83 @@ input[type="text"] {
 }
 
 
-.popular-tour-content{
-color: rgba(19, 19, 24, 0.70);
-margin: 24px 0;
-}
-.popular-tour-list{
+.popular-tour-content {
+    color: rgba(19, 19, 24, 0.70);
     margin: 24px 0;
 }
 
-.btn-read-more{
+.popular-tour-list {
+    margin: 24px 0;
+}
+
+.btn-read-more {
     margin-top: 32px;
 }
 
 /* destination section */
-.destination-section{
+.destination-section {
     text-align: center;
 }
 
-.destination-img-container{
+.destination-img-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.maldive-indo,.sri-kashmir, .bd{
+.maldive-indo,
+.sri-kashmir,
+.bd {
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
 }
 
 
-.choose-reason{
+.choose-reason {
     text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.card-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-hotel {
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    width: 50%;
+}
+
+.card-location {
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+    width: 50%;
+}
+.card-price {
+    text-align: left;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+    width: 50%;
+}
+.card-price-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
 }

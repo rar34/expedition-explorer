@@ -30,7 +30,8 @@
 
     .search-container,
     .popular-tour-container,
-    .maldive-indo,.sri-kashmir, .bd{
+    .maldive-indo,.sri-kashmir, .bd,
+    .card-container{
         flex-direction: column;
         padding: 10px;
     }
@@ -39,5 +40,8 @@
     }
     .destination-img-container img {
         width: 100%;
+    }
+    .card-price, .card-location, .card-hotel{
+        width: 80%;
     }
 }
