@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-    header,
+    body,
     .banner{
         padding: 10px;
     }
@@ -22,8 +22,22 @@
         margin-right: 20px;
     }
 
-    .search-container{
+    .nav-title {
+        color: #131318;
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+
+    .search-container,
+    .popular-tour-container,
+    .maldive-indo,.sri-kashmir, .bd{
         flex-direction: column;
         padding: 10px;
+    }
+    .popular-tour-img img{
+        width: 100%;
+    }
+    .destination-img-container img {
+        width: 100%;
     }
 }
