@@ -1,0 +1,107 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+    /* max-width: 1440px; */
+    /* margin: 0 auto; */
+}
+
+/* common shared style */
+
+.btn-primary {
+    border-radius: 8px;
+    background-color: #FF5400;
+    padding: 16px 35px;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* body{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+/* header related style */
+header {
+    padding: 50px 135px;
+}
+
+.logo {
+    display: flex;
+    gap: 16px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.explorer {
+    color: #FF5400;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #424247;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+}
+
+#toggler,
+label {
+    display: none;
+}
+
+/* banner related style */
+.banner {
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group13.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 185px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.search-container {
+    display: flex;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    justify-content: center;
+}
+
+input[type="text"] {
+    padding: 16px;
+    border-radius: 8px;
+    border: 0;
+}
+
+/* .search-icon .arrow {
+    position: absolute;
+    right: 300px;
+    color: #424247;
+} */
