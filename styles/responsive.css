@@ -28,6 +28,17 @@
         font-weight: 800;
     }
 
+    /* .search-container input[type="text"]{
+        display: block;
+        width: 90%;
+    }
+
+    .search-icon .icon-container {
+
+        position: relative;
+        bottom: 33px;
+        left: 200px;
+    } */
     .search-container,
     .popular-tour-container,
     .maldive-indo,.sri-kashmir, .bd,

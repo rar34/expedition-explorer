@@ -115,18 +115,25 @@ label {
     padding: 16px;
     justify-content: center;
 }
+input[type="text"]{
+    width: 190px;
+    padding: 16px;
+    border: 0;
+    border-radius: 8px;
+}
 
-.search-container input[type="text"] {
+.input-field{
+    width: 220px;
     padding: 16px;
     border-radius: 8px;
     border: 0;
-}
-
-/* .search-icon .arrow {
-    position: absolute;
-    right: 300px;
     color: #424247;
-} */
+}
+.btn-search{
+    background-color: #FF5400;
+    color: #FFF;
+    font-weight: 700;
+}
 
 
 /* main related style */
