@@ -115,21 +115,23 @@ label {
     padding: 16px;
     justify-content: center;
 }
-input[type="text"]{
+
+input[type="text"] {
     width: 190px;
     padding: 16px;
     border: 0;
     border-radius: 8px;
 }
 
-.input-field{
+.input-field {
     width: 220px;
     padding: 16px;
     border-radius: 8px;
     border: 0;
     color: #424247;
 }
-.btn-search{
+
+.btn-search {
     background-color: #FF5400;
     color: #FFF;
     font-weight: 700;
@@ -179,6 +181,20 @@ input[type="text"]{
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.country-name {
+    position: absolute;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    bottom: 26%;
+    left: 33%;
+
 }
 
 
@@ -333,7 +349,8 @@ footer {
     text-align: center;
     margin-top: 50px;
 }
-hr{
+
+hr {
     background: rgba(19, 19, 24, 0.10);
 }
 
@@ -345,6 +362,6 @@ hr{
     left: 80px;
 }
 
-.icon-container i{
+.icon-container i {
     color: #424247;
 }
