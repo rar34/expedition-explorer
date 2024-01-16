@@ -264,6 +264,10 @@ input[type="text"] {
 
 
 /* for bonus section */
+.customer-review-title{
+    text-align: center;
+}
+
 .customer-review-container{
     display: flex;
     gap: 24px;
