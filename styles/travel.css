@@ -262,6 +262,84 @@ input[type="text"] {
 }
 
 
+
+/* for bonus section */
+.customer-review-container{
+    display: flex;
+    gap: 24px;
+}
+
+.customer-review-form{
+    width: 90%;
+    background-color: beige;
+    padding: 16px;
+    border-radius: 8px;
+}
+.customer-review-form input[type="text"]{
+    width: 90%;
+    margin-bottom: 8px;
+}
+.customer-review-form .select-field{
+    width: 95%;
+    padding: 16px;
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 8px;
+    color: #424247;
+}
+.review-field{
+    width: 90%;
+    padding: 16px;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.btn-submit{
+    color: #FFF;
+    font-weight: 800;
+    background-color: #FF5400;
+    padding: 16px 25px;
+    border: 0;
+    border-radius: 8px;
+}
+
+
+
+.customer-review{
+    width: 90%;
+    background-color: beige;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.review-card{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 16px;
+    height: 48%;
+    max-width: 400px;
+}
+
+.review-card-3{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(228, 184, 184, 0.6);
+    backdrop-filter: blur(2.5px);
+    padding: 16px;
+    position: absolute;
+    max-width: 400px;
+    left: 30%;
+    top: 20%;
+}
+
+
+
 /* Newsletter */
 
 .newsletter-container {
@@ -379,78 +457,3 @@ hr {
     color: #424247;
 }
 
-
-/* for bonus section */
-
-.customer-review-container{
-    display: flex;
-    gap: 24px;
-}
-
-.customer-review-form{
-    width: 90%;
-    background-color: beige;
-    padding: 16px;
-    border-radius: 8px;
-}
-.customer-review-form input[type="text"]{
-    width: 90%;
-    margin-bottom: 8px;
-}
-.customer-review-form .select-field{
-    width: 95%;
-    padding: 16px;
-    border-radius: 8px;
-    border: 0;
-    margin-bottom: 8px;
-    color: #424247;
-}
-.review-field{
-    width: 90%;
-    padding: 16px;
-    border: 0;
-    border-radius: 8px;
-    margin-bottom: 8px;
-}
-.btn-submit{
-    color: #FFF;
-    font-weight: 800;
-    background-color: #FF5400;
-    padding: 16px 25px;
-    border: 0;
-    border-radius: 8px;
-}
-
-
-.customer-review{
-    width: 90%;
-    background-color: beige;
-    border-radius: 8px;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    position: relative;
-}
-
-.review-card{
-    border-radius: 16px;
-    border: 2px solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
-    padding: 16px;
-    height: 48%;
-    max-width: 400px;
-}
-
-.review-card-3{
-    border-radius: 16px;
-    border: 2px solid #FFF;
-    background: rgba(228, 184, 184, 0.6);
-    backdrop-filter: blur(2.5px);
-    padding: 16px;
-    position: absolute;
-    max-width: 400px;
-    left: 30%;
-    top: 20%;
-}
