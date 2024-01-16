@@ -37,7 +37,8 @@ body {
 
 }
 
-header, main{
+header,
+main {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -229,6 +230,7 @@ label {
 .newsletter-container {
     display: flex;
     justify-content: space-between;
+    max-height: 670px;
 }
 
 .newsletter input[type="text"] {
@@ -238,7 +240,7 @@ label {
     border: 0;
     display: block;
     margin-bottom: 16px;
-    width: 96%;
+    width: 98%;
 }
 
 .newsletter {
@@ -246,8 +248,14 @@ label {
     border: 1px solid #FF5400;
     padding: 40px;
     margin-bottom: 156px;
+    width: 40%;
+
 }
 
+/* .newsletter-img img{
+    width: 100%;
+    object-fit: cover;
+} */
 .btn-subscribe {
     width: 100%;
     font-size: 20px;
@@ -258,7 +266,7 @@ label {
 
 /* discount */
 
-.discount{
+.discount {
     background-color: #FF5400;
     padding: 40px;
     text-align: center;
@@ -269,6 +277,7 @@ label {
     bottom: 216px;
     left: 258px;
 }
+
 .discount-loc {
     color: #FFF;
     font-size: 24px;
@@ -285,8 +294,50 @@ label {
 
 /* footer */
 
-footer{
+footer {
     background: rgba(19, 19, 24, 0.05);
+    display: flex;
     align-items: center;
     justify-content: center;
+    padding: 110px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
+}
+
+.social-media i {
+    font-size: 2rem;
+}
+
+.footer-content {
+    color: #131318;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+}
+hr{
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.search-icon .icon-container {
+    /* color: grey; */
+    position: relative;
+    /* right: 30px; */
+    bottom: 33px;
+    left: 80px;
+}
+
+.icon-container i{
+    color: #424247;
 }

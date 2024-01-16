@@ -60,4 +60,11 @@
     .discount-loc{
         font-size: 16px;
     }
+    .newsletter{
+        width: 75%;
+        margin-bottom: 40px;
+    }
+    footer{
+        padding: 10px;
+    };
 }
