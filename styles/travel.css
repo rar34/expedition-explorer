@@ -118,14 +118,14 @@ label {
 }
 
 input[type="text"] {
-    width: 190px;
+    width: 210px;
     padding: 16px;
     border: 0;
     border-radius: 8px;
 }
 
 .input-field {
-    width: 220px;
+    width: 240px;
     padding: 16px;
     border-radius: 8px;
     border: 0;
